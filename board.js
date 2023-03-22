@@ -20,9 +20,9 @@ export class Board {
         for (let i = 0; i < this.tileCount; i++) {
             for (let j = 0; j < this.tileCount; j++) {
                 if (k % 2 == 0) {
-                    Node.getInstane().draw(this.tileSize * i, this.tileSize * j, "rgb(170,215,81)");
+                    Node.getInstane().draw(i, j, "rgb(170,215,81)");
                 } else {
-                    Node.getInstane().draw(this.tileSize * i, this.tileSize * j, "rgb(162,209,73)");
+                    Node.getInstane().draw(i, j, "rgb(162,209,73)");
                 }
                 k++;
             }

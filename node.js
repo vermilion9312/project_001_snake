@@ -1,4 +1,7 @@
 import {
+    Board
+} from "./board.js";
+import {
     ManagerGame
 } from "./managerGame.js";
 
@@ -13,8 +16,9 @@ export class Node {
     }
 
     draw(x, y, color) {
+        this.tileSize = Board.getInstance().tileSize;
         this.ctx = ManagerGame.getInstance().ctx;
         this.ctx.fillStyle = color;
-        this.ctx.fillRect(x, y, this.nodeSize, this.nodeSize);
+        this.ctx.fillRect(x * this.tileSize, y * this.tileSize, this.nodeSize, this.nodeSize);
     }
 }

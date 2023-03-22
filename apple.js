@@ -13,8 +13,8 @@ export class Apple {
 
     start() {
         this.tileCount = Board.getInstance().tileCount;
-        this.x = Math.floor(Math.random() * this.tileCount);
-        this.y = Math.floor(Math.random() * this.tileCount);
+        this.x = 12;
+        this.y = 8;
     }
 
     update() {
@@ -23,6 +23,6 @@ export class Apple {
 
     draw() {
         this.tileSize = Board.getInstance().tileSize;
-        Node.getInstane().draw(this.x * this.tileSize, this.y * this.tileSize, "red");
+        Node.getInstane().draw(this.x, this.y, "rgb(231, 71, 29)");
     }
 }
