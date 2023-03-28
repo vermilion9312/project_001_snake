@@ -1,6 +1,6 @@
 import {
     Node
-} from "./node.js";
+} from "./_03_node.js";
 
 export class Snake {
     static instance = new Snake();

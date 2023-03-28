@@ -1,15 +1,15 @@
 import {
     Apple
-} from "./apple.js";
+} from "./_05_apple.js";
 import {
     Board
-} from "./board.js";
+} from "./_04_board.js";
 import {
     Node
-} from "./node.js";
+} from "./_03_node.js";
 import {
     Snake
-} from "./snake.js";
+} from "./_06_snake.js";
 
 export class ManagerGame {
     static instance = new ManagerGame();

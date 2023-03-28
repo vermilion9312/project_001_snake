@@ -1,9 +1,9 @@
 import {
     Board
-} from "./board.js";
+} from "./_04_board.js";
 import {
     ManagerGame
-} from "./managerGame.js";
+} from "./_02_managerGame.js";
 
 export class Node {
     static instance = new Node();
