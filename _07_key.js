@@ -4,5 +4,8 @@ export class Key {
         return Key.instance;
     }
 
+    start() {
+        console.log(document.onkeydown.prototype)
+    }
 
 }

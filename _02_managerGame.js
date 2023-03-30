@@ -10,6 +10,9 @@ import {
 import {
     Snake
 } from "./_06_snake.js";
+import {
+    Key
+} from "./_07_key.js";
 
 export class ManagerGame {
     static instance = new ManagerGame();
@@ -23,6 +26,7 @@ export class ManagerGame {
         Board.getInstance().start();
         Apple.getInstance().start();
         Snake.getInstance().start();
+        Key.getInstance().start();
     }
 
     draw() {

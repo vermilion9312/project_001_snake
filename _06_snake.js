@@ -17,6 +17,7 @@ export class Snake {
             x: this.x,
             y: this.y
         }
+
         for (let i = 0; i < this.snakeLength; i++) {
             this.snakeList.push(this.snake);
             this.x++;
@@ -35,5 +36,21 @@ export class Snake {
         for (let i = 0; i < this.snakeList.length; i++) {
             Node.getInstane().draw(this.snakeList[i].x, this.snakeList[i].y, "rgb(68, 113, 230)");
         }
+    }
+
+    left() {
+
+    }
+
+    right() {
+
+    }
+
+    up() {
+
+    }
+
+    down() {
+
     }
 }
