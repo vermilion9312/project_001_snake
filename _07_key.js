@@ -5,7 +5,8 @@ export class Key {
     }
 
     start() {
-        console.log(document.onkeydown.prototype)
+        document.onkeydown = (e) => {
+            console.log(e);
+        }
     }
-
 }

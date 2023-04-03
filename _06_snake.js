@@ -1,6 +1,9 @@
 import {
     Node
 } from "./_03_node.js";
+import {
+    Board
+} from "./_04_board.js";
 
 export class Snake {
     static instance = new Snake();
@@ -11,6 +14,8 @@ export class Snake {
     start() {
         this.x = 2;
         this.y = 8;
+        this.dx = Board.getInstance().tileSize;
+        this.dy = 0;
         this.snakeList = [];
         this.snakeLength = 3;
         this.snake = {
