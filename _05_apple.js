@@ -1,9 +1,5 @@
-import {
-    Board
-} from "./_04_board.js";
-import {
-    Node
-} from "./_03_node.js";
+import { Board } from "./_04_board.js";
+import { Node } from "./_03_node.js";
 
 export class Apple {
     static instance = new Apple();

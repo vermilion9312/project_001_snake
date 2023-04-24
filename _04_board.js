@@ -1,6 +1,4 @@
-import {
-    Node
-} from "./_03_node.js";
+import { Node } from "./_03_node.js";
 
 export class Board {
     static instance = new Board();

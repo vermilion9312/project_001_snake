@@ -1,9 +1,5 @@
-import {
-    Node
-} from "./_03_node.js";
-import {
-    Board
-} from "./_04_board.js";
+import { Node } from "./_03_node.js";
+import { Board } from "./_04_board.js";
 
 export class Snake {
     static instance = new Snake();

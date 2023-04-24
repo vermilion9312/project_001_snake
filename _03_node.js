@@ -1,9 +1,5 @@
-import {
-    Board
-} from "./_04_board.js";
-import {
-    ManagerGame
-} from "./_02_managerGame.js";
+import { Board } from "./_04_board.js";
+import { ManagerGame } from "./_02_managerGame.js";
 
 export class Node {
     static instance = new Node();

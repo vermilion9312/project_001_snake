@@ -1,18 +1,8 @@
-import {
-    Apple
-} from "./_05_apple.js";
-import {
-    Board
-} from "./_04_board.js";
-import {
-    Node
-} from "./_03_node.js";
-import {
-    Snake
-} from "./_06_snake.js";
-import {
-    Key
-} from "./_07_key.js";
+import { Apple } from "./_05_apple.js";
+import { Board } from "./_04_board.js";
+import { Node } from "./_03_node.js";
+import { Snake } from "./_06_snake.js";
+import { Key } from "./_07_key.js";
 
 export class ManagerGame {
     static instance = new ManagerGame();
